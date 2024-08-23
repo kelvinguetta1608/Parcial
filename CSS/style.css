@@ -1,0 +1,295 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color:rgb(233, 233, 233);
+}
+
+.header{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-link{
+    list-style: none;
+}
+
+.header .nav-link li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.header .nav-link a{
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav-link li a:hover{
+    color: gold;
+}
+
+.header .boton button{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: white;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .boton button:hover{
+    background: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+section{
+    color: white;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle img{
+    width: 230px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    outline: 3px dashed;
+    transition: all 0.3s
+}
+
+.middle img:hover{
+    transform: scale(1.1);
+}
+
+.down img {
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    outline: 3px dashed;
+    color: white;
+    
+    
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    padding: 25px 30px 0 30px;
+}
+
+.down{
+    display:flex;
+    flex-direction: row;
+    padding: 0 80px 0 0;
+    justify-content: right;
+    align-items: center;
+}
+
+.middle .right{
+    margin: 40px 0px 0px 50px;
+}
+
+ul li{
+    list-style: circle;
+}
+
+.card{
+    position: relative;
+    width: 550px;
+    height: 380px;
+    backdrop-filter: blur(25px);
+    background: black;
+    box-shadow: 0 25px 45px black;
+    border-radius: 30px;
+}
+
+.cuadro{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    backdrop-filter: blur(25px);
+    background: black;
+    box-shadow: 0 2px 8px black;
+    border-radius: 30px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s
+}
+
+.cuadro:hover{
+    transform: scale(1.1);
+}
+
+.project{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    backdrop-filter: blur(25px);
+    background: white;
+    box-shadow: 0 2px 8px white;
+    border-radius: 30px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s
+}
+
+.project:hover{
+    transform: scale(1.1);
+}
+
+.programas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.programas img {
+    display: flex;
+    height: 150px; 
+    object-fit: cover;
+    transition: all 0.3s
+}
+
+.programas img:hover{
+    transform: scale(1.2);
+}
+
+.texto {
+    text-align: center; 
+    font-size: 70px; 
+    color: black; 
+    margin: 20px;
+}
+
+.texto1 {
+    text-align: center; 
+    font-size: 70px; 
+    color: white; 
+    margin: 20px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid;
+}
+
+
+.about{
+    background:  black;
+}
+
+.middle-about{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px 0 30px;
+}
+
+.top-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+.top-about label{
+    font-size: 50px;
+}
+
+.top-git {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    color: black;
+}
+
+.top-git label{
+    font-size: 50px;
+}
+
+.middle-git{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px 0 30px;
+    color: black;
+}
+
+.skill{
+    font-size: 30px;
+}
+
+ul {
+    margin: 15px 0px 0px 0px;
+    padding: 0; 
+}
+
+.logos{
+    margin:  0px;
+}
+
+li {
+    margin-bottom: 15px; 
+}
+
+.redes{
+    margin: 0px 20px 0px 0px;
+    transition: all 0.3s
+}
+
+.redes:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
